@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #99c4a7;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2em;
+}
+
+.container {
+    max-width: 900px;
+    margin: 100px auto;
+}
+
+h2 {
+    text-align: center;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 80px;
+    border-radius: 10px;
+    background: rgb(0, 0, 0);
+    text-align: center;
+    margin: 10px auto;
+}
+
+blockquote {
+    font-size: 1.5em;
+    margin: 0px auto 25px;
+    color: white;
+    max-width: 600px;
+    font-style: italic;
+}
+
+#auteur {
+    display: block;
+    margin: 0px;
+    max-width: 630px;
+    text-align: right;
+    color: white;
+}
+
+button {
+    display: block;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: teal;
+    color: white;
+}
+
+button:hover {
+    background-color: #03b0b0;
+}
+
+img {
+    margin-left: 150px;
+    width: 170px;
+    height: 170px;
+    border-radius: 15%;
+}
