@@ -21,4 +21,7 @@ const reqListener = response => {
 window.onload = () => {
     load.onclick = recuperation();
 };
+document.getElementById('load').addEventListener('click', () => {
+    location.reload();
+});
 recuperation();
